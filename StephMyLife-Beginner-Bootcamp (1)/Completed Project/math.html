@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/math.js"></script>
+</head>
+
+<body class="mathBody" onload="initialise()">
+    <div class="main">
+        <div class="mathElement">
+            <label class="timer" id="countdown"></label>
+        </div>
+        <div class="mathElement">
+            <label>Answer 10 equations correctly to move to the next page.</label>
+        </div>
+        <div class="mathElement">
+            <label id="subtract"></label>
+            <input id="subtractAnswer" type="text" onkeyup="check('subtract')">
+        </div>
+        <div class="mathElement">
+            <label id="multiply"></label>
+            <input id="multiplyAnswer" type="text" onkeyup="check('multiply')">
+        </div>
+        <div class="mathElement">
+            <label id="add"></label>
+            <input id="addAnswer" type="text" onkeyup="check('add')">
+        </div>
+        <div class="mathElement">
+            <label id="progress"></label>
+        </div>
+
+    </div>
+</body>
+
+</html>

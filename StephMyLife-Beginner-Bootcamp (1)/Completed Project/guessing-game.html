@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/game.js"></script>
+</head>
+
+<body class="guessingGameBody">
+    <div class="main">
+        <h2> Can you guess all of the states in America?</h2>
+        <p> Enter your guesses below to make it to the next page:</p>
+        <input class="guessingGame" type="text" id="userGuess" onkeyup="guess()">
+        <p>Correctly guessed:</p>
+        <textarea class="correctAnswers" id="correct" disabled="true"></textarea>
+        <br/>
+        <br/>
+        <label id="counter"></label>
+    </div>
+</body>
+
+</html>
